@@ -1,0 +1,195 @@
+
+.container {
+    background-color: red;
+    margin: -16px -8px 0px -8px;
+    border: 1px solid black;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    animation: example  5s 0s infinite alternate linear;
+    
+}
+
+.nav-bar {
+    text-align: center;
+    flex-grow: 1;
+    font-size: 17px;
+}
+
+.by-name {
+    padding-top: 20px;
+    font-size: 10px;
+}
+
+.course-title {
+    background-color: blue;
+    opacity: 80%;
+    height: 40px;
+    margin: -1px -8px 0px -8px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-name {
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.header {
+    display: flex;
+    background-color: greenyellow;
+    margin: 0 -8px 0 -8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header a {
+    padding: 8px 16px; 
+    border: 1px solid black;
+    flex-grow: 1;
+    text-align: center;
+    text-decoration: none;
+}
+
+.content:not(#home) {
+    display: none;
+}
+
+p {
+    padding: 0 0 0 20px;
+}
+
+.cs-block-lab {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    float: right;
+    max-width: 100%;
+}
+
+.cs-block-lab:hover{
+    transform: scale(1.03);
+    transition:  0.3s linear;
+}
+
+.about-cse-content {
+    display: flex;
+}
+
+.lookover-content {
+    display: flex;
+}
+
+.lookover-content img {
+    max-width: 500px;
+    height: 300px;
+    width: 100%;
+}
+
+.work-shop-pic-home:hover{
+    transform: scale(1.03);
+    transition: 0.3s linear;
+}
+
+.page-close-content {
+    display: flex;
+}
+
+.page-close-content p {
+    padding: 0 10px 0 0;
+}
+
+.page-close-image {
+    text-align: center;
+}
+
+.page-close-image:hover {
+    transform:scale(1.03);
+    transition: 0.3s linear;
+}
+
+.infrastructure-details {
+    text-align: center;
+}
+
+.infrastructure-details img {
+    max-width: 500px;
+    height:300px ;
+    width: 100%;
+}
+
+.infrastructure-details:hover img{
+    transform: scale(1.03);
+    transition: 0.3s linear;
+}
+
+.staff-details {
+    text-align: center;
+}
+
+.staff-details:hover{
+    transform: scale(1.03);
+    transition: transform 0.3s linear;
+}
+
+
+.placement-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    text-align: center;
+}
+
+.placement-details {
+    width: 100%;
+}
+
+.placement-content:hover img{
+    transform:scale(1.03);
+    transition: 0.3s linear;
+}
+
+.departmental-news-image{
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+
+}
+
+.departmental-news-details {
+    display: flex;
+}
+
+.departmental-news-image:hover {
+    transform: scale(1.03);
+    transition: 0.3s linear;
+}
+
+.jump-to-top {
+    margin: 0 0 10px 5px;
+}
+.jump-to-top a {
+    text-decoration: none;
+}
+
+.footer {
+    background-color: rgb(75, 49, 241);
+    margin: 0 -8px -16px -8px;
+    display: flex;
+}
+
+.footer-head {
+    background-color: rgb(41, 104, 205);
+}
+
+.footer-image {
+    text-align: right;
+    margin: 20px 10px 0 400px;
+}
+
+.footer-image img {
+    width: 200px;
+}
